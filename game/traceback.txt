@@ -1,0 +1,18 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+Before loading the script.
+NotADirectoryError: [WinError 267] 目录名称无效。: 'G:\\renpy\\renpy-8.1.1-sdk\\Aden\\game\\screens.rpyc'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "G:\renpy\renpy-8.1.1-sdk\renpy\bootstrap.py", line 275, in bootstrap
+    renpy.main.main()
+  File "G:\renpy\renpy-8.1.1-sdk\renpy\main.py", line 398, in main
+    for fn in sorted(os.listdir(dir)):
+NotADirectoryError: [WinError 267] 目录名称无效。: 'G:\\renpy\\renpy-8.1.1-sdk\\Aden\\game\\screens.rpyc'
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.1.1.23060707
+ 
+Sat Jan  6 18:55:45 2024
